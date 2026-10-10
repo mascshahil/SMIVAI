@@ -16,7 +16,7 @@ Local development only — nothing here deploys anything.
 python -m http.server 8123
 ```
 
-That is the whole app at http://localhost:8123, running on its own.
+That is the whole app at (https://smivai.vercel.app/#/), running on its own.
 Optionally, the API (from `backend/`; `SMIVAI_DEMO_OTP=1` is needed for sign-in
 because no SMS provider is connected):
 
