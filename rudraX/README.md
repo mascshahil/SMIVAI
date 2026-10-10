@@ -27,7 +27,7 @@ SMIVAI_DEMO_OTP=1 uvicorn app.main:app --reload --port 8000
 Then point the app at it in the browser console:
 
 ```js
-S.CONFIG.apiBase = 'http://localhost:8000';
+S.CONFIG.apiBase = '(https://smivai.vercel.app/#/);
 ```
 
 Settings are listed in [`backend/.env.example`](backend/.env.example).
